@@ -1,0 +1,26 @@
+
+ADD     Acc<-Acc + Opd1
+BR      PC <- Opd1
+BRNEG   PC <- Opd1, se ACC < 0
+BRPOS   PC <- Opd1, se ACC > 0
+BRZERO  PC <- Opd1, se ACC = 0
+CALL    [SP] <- PC ; PC <- Opd1
+COPY    Opd1 <- Opd2
+DIVIDE  ACC <- ACC/Opd1
+LOAD    ACC <- Opd1
+MULT    Acc <- Acc*Opd1
+READ    Opd1 <- input
+RET     PC <- [SP]
+STOP    FIM
+STORE   Opd1 <- ACC
+SUB     ACC <- ACC - Opd1
+WRITE   output <- Opd1
+
+
+add 1
+store 0
+add 1 
+store 1
+add 2
+store 2
+store 3
