@@ -1,3 +1,5 @@
-#Calingaert Virtual Machine
+## Calingaert Virtual Machine
 
-#Authors: @Gabriel Maciel, @Juan Rios, @Guilherme Acosta, @William Insaurriaga, @Felipe Trindade, @Henry Soares
+   Co - Author: [Gabriel Maciel](https://github.com/GabrielMaciel)
+   
+       Implematation of Calingaert Virtual Machine in Java.
